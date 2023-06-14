@@ -1,0 +1,80 @@
+:root {
+    --primary-color: rgb(30, 30, 34);
+    --secondary-color: red;
+    --font-size-heading: 24px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+  }
+  
+  h1 {
+    color: var(--primary-color);
+    font-size: var(--font-size-heading);
+    text-align: center;
+  }
+  h1:hover{
+    color: blueviolet;
+  }
+  p{
+    color: brown;
+  }
+  
+  .container {
+    background-color: rgb(158, 223, 196);
+    width: 1200px;
+    height: 800px;
+    margin: 40px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  td {
+    border: 2px solid rgb(28, 16, 99);
+    padding: 8px;
+  }
+  
+  tr:hover {
+    background-color: rgb(30, 186, 238);
+  }
+  
+  ul li:first-child {
+    font-weight: bold;
+    color: rgb(192, 9, 9);
+  }
+  
+ ul:hover{
+    color: rgb(241, 238, 238);
+ }
+  thead {
+    background-color: rgb(189, 178, 178);
+  }
+  
+  a:hover {
+    color: var(--secondary-color);
+    font-weight: bold;
+  }
+  
+  a:active {
+    color: rgb(0, 122, 0);
+  }
+  
+  li::before {
+    content: "-";
+    margin-right: 5px;
+  }
+  img {
+    width: 400px;
+    height: 390px;
+    padding-left: 400px;
+    
+   
+  }
+  
